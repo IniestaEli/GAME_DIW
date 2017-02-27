@@ -1,20 +1,21 @@
 .navbar-brand{
-  padding: 0px 10px;
+  padding: 0px 0px;
   vertical-align: center;
-  height: 50px;
 }
 #barra{
-  min-height: 10%;
+  padding-right: 0px;
 }
 #contenidoPal{
   min-height: 80%;
 }
 .container-fluid{
+  position: absolute;
   height: 100%;
+  width: 100%;
   padding-left: 0px;
-  padding-right: 0px;
+  padding-right: 15px;
 }
 #footer{
   background-color: #4e5d6c;
-  min-height: 10%;
+  min-height: 15%;
 }
