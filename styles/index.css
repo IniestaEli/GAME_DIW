@@ -31,3 +31,52 @@
   text-align: center;
   text-decoration: none;
 }
+
+.hr-noticias {
+  border-top: 1px solid white;
+}
+
+.img-noticias {
+  width: 50%; 
+  height: 20%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.margin-bottom-noticia {
+  margin-bottom: 5%;
+}
+
+.p-noticia{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.margen-izq-dcha-not{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contenedor-ultimas-not{
+  min-width: 73%
+}
+
+.titulos-producto{
+  margin-top: 7%;
+}
+
+.hr-productos{
+  border-top: 3px solid white;
+}
+
+.div-juego{
+  margin-bottom:3%;
+}
+
+.imagen-juego{
+  width: 50%;
+  height: 70%; 
+  margin-top: 5%; 
+  margin-bottom: 5%;
+}

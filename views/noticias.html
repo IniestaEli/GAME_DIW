@@ -23,14 +23,24 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img class="navbar-brand" src="../resources/img/GameCentreLogo.png"></img></a>
+            <a class="navbar-brand" href="index.html"><img class="navbar-brand" src="../resources/img/GameCentreLogo.png"></img></a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Empresa</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Productos</a></li>
-              <li><a href="#"><span class ="glyphicon glyphicon-bookmark" ></span> Noticias</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contacto</a></li>
+              <li><a href="empresa.html"><span class="glyphicon glyphicon-briefcase"></span> Empresa</a></li>
+              <li><a href="noticias.html"><span class="gglyphicon glyphicon-bookmark "></span> Noticias</a></li>
+              <li><a href="contacto.html"><span class="glyphicon glyphicon-user"></span> Contacto</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <span class ="glyphicon glyphicon-shopping-cart"></span>Productos
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="productos.html">Ps3</a></li>
+                  <li><a href="productos.html">Ps4</a></li>
+                  <li><a href="productos.html">XBOX 360</a></li>
+                </ul>
+              </li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
               <div class="form-group">
@@ -53,64 +63,68 @@
         </div>
         <!-- CONTENEDOR PARA ULTIMAS NOTICIAS -->
         <article>
-          <div class="well col-md-8" style="min-width: 73%">
+          <div class="well col-md-8 contenedor-ultimas-not">
             <div clas="row">
               <h4 class="text-center">Últimas noticias</h4>
-              <hr align="center" width="100%" style="border-top: 1px solid white;" />
-              <div class="row text-center" style="margin-bottom: 5%">
+              <hr align="center" width="100%"  class="hr-noticias"/>
+              <div class="row text-center margin-bottom-noticia">
                 <p><strong>BLASTER MASTER ZERO NOS TRANSMITE UN GRAN SENTIMIENTO DE NOSTALGIA CON SU GAMEPLAY DE 16 MINUTOS</strong></p>
-                <img src="../resources/img/noticias/1.jpg" style="width: 50%; height: 20%; margin-top: 1%; margin-bottom: 2%;">
-                <p style="margin-left: 5%; margin-right: 5%; text-align: justify">Nintendo dejó claro ayer en su último Nintendo Direct que se avecina una buena oleada de indies a Nintendo Switch, unos más espectaculares que otros, pero personalmente uno de los que más me llamó la atención fue 'Blaster Master Zero', una remasterización del clásico de NES que llegará a la nueva consola de sobremesa y a Nintendo 3DS.
+                <img src="../resources/img/noticias/1.jpg" class="img-noticias">
+                <p class="p-noticia">Nintendo dejó claro ayer en su último Nintendo Direct que se avecina una buena oleada de indies a Nintendo Switch, unos más espectaculares que otros, pero personalmente uno de los que más me llamó la atención fue 'Blaster Master Zero', una remasterización del clásico de NES que llegará a la nueva consola de sobremesa y a Nintendo 3DS.
                 El portal Polygon ha tenido la suerte de probar a fondo el juego y prueba de ello es el gameplay de 16 minutos que ha publicado y que muestra claramente como su jugabilidad permanecerá intacta con esos niveles en 2D que deberemos recorrer en nuestro vehículo y otros que podremos recorrer a pie desde un punto de vista cenital.</p>
               </div>
-              <div class="row text-center" style="margin-bottom: 5%">
-                <p><strong>COMPARATIVA CONSOLAS</strong></p>
-                <div class="table-responsive" style="margin-left: 5%; margin-right: 5%;">
+              <div class="row text-center margin-bottom-noticia">
+                <p><strong>COMPARAMOS LAS CARACTERÍSTICAS DE PS4, PS3 Y XBOX ONE</strong></p>
+                <div class="table-responsive margen-izq-dcha-not">
                   <table class="table table-striped table-bordered">
                     <thead>
                       <tr>
                         <th class="text-center">Consola</th>
                         <th class="text-center">Precio</th>
                         <th class="text-center">CPU</th>
-                        <th class="text-center">GPU</th>
+                        <th class="text-center">Dimensiones (cm)</th>
                         <th class="text-center">RAM</th>
                         <th class="text-center">Audio/MP3</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Cuadros</td>
-                        <td>2017-02-02</td>
-                        <td>2017-02-02</td>
-                        <td>50,25</td>
-                        <td>Arte del siglo XIX</td>
-                        
+                        <td>Play Station 4</td>
+                        <td>300€</td>
+                        <td>Un único procesador x86 AMD Jaguar de 8 núcleos</td>
+                        <td>30,5 largo; 27,5 ancho; 5,3 alto</td>
+                        <td>8GB GDDR5</td>
+                        <td>No</td>
                       </tr>
                       <tr>
-                        <td>Edificios</td>
-                        <td>2017-02-02</td>
-                        <td>2017-02-02</td>
-                        <td>75,25</td>
-                        <td>Edificios contemporáneos</td>
-                        
+                        <td>XBOX</td>
+                        <td>499€</td>
+                        <td>Procesador x86 de 8 núcleos personalizado Microsoft</td>
+                        <td>33,3 largo; 27,4 ancho; 7,9 alto</td>
+                        <td>8GB DDR3</td>
+                        <td>Sí</td>
                       </tr>
                       <tr>
-                        <td>Esculturas</td>
-                        <td>2017-02-02</td>
-                        <td>2017-02-02</td>
-                        <td>73,25</td>
-                        <td>Esculturas siglo XX</td>
-                        <!--<td><button class="btn btn-success">Seleccionar</button></td>-->
+                        <td>Play Station 3</td>
+                        <td>179.99€</td>
+                        <td>Cell Broadband Engine 3,2 GHz con 1PPE y 8 SPEs</td>
+                        <td>43,5 de largo; 17 de ancho;33,5 de alto</td>
+                        <td>256 MB de RAM de tipo GDDR3 </td>
+                        <td>Sí</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
+                <p class="p-noticia">Hemos querido traeros una tabla comparativa para poner un poco de orden entre tanta información que nos llega sobre PS4, PS3 y Xbox One y ver así qué máquina "sale ganando" en cada apartado.
+                  A falta de menos de un mes para el lanzamiento de la nueva generación, Sony y Microsoft están mostrando los últimos detalles de sus dos nuevos retoños. La compañía japonesa ha comentado que el primer día su máquina necesitará poner a punto varias características, como la emisión de las partidas por Internet o el reconocimiento de voz. Todo llegará en una actualización que estará disponible desde el día uno.
+                  Por el lado de Microsoft, la empresa norteamericana está basando sus últimos esfuerzos a explicarnos varias de las funciones de Xbox One. Por ejemplo, SmartGlass, un vídeo donde podemos la interfaz de la consola o cómo serán los logros personalizables de la máquina.
+                </p>
               </div>
-              <div class="row text-center" style="margin-bottom: 5%">
-                <p><strong></strong></p>
-                <img src="../resources/img/noticias/1.jpg" style="width: 50%; height: 20%; margin-top: 1%; margin-bottom: 2%;">
-                <p style="margin-left: 5%; margin-right: 5%; text-align: justify">Nintendo dejó claro ayer en su último Nintendo Direct que se avecina una buena oleada de indies a Nintendo Switch, unos más espectaculares que otros, pero personalmente uno de los que más me llamó la atención fue 'Blaster Master Zero', una remasterización del clásico de NES que llegará a la nueva consola de sobremesa y a Nintendo 3DS.
-                El portal Polygon ha tenido la suerte de probar a fondo el juego y prueba de ello es el gameplay de 16 minutos que ha publicado y que muestra claramente como su jugabilidad permanecerá intacta con esos niveles en 2D que deberemos recorrer en nuestro vehículo y otros que podremos recorrer a pie desde un punto de vista cenital.</p>
+              <div class="row text-center margin-bottom-noticia">
+                <p><strong>TEARWAY UNFOLDED Y DISC JAM ENTRE LAS PROPUESTAS JUGABLES DE MARZO PARA LOS SUSCRIPTORES DE PS PLUS</strong></p>
+                <img src="../resources/img/noticias/2.jpg" class="img-noticias">
+                <p class="p-noticia">Aunque los dos platos fuertes de PS4 se habían filtrado algunos días antes, Sony hace oficiales los juegos que afianzarán la propuesta jugable de los suscriptores de PlayStation Plus: el desenfadado plataformas 'Tearaway Unfolded ' y 'Disc Jam', una versión alternativa del clásico 'Windjammers' serán dos de las grandes apuestas de este mes, aunque no las únicas.
+                Junto a los juegos anteriores, y gracias al programa de Cross-Play y Cross-Buy con PS Vita, los usuarios de PS4 recibirán la aventura en perspectiva isométrica 'Lumo' de Rising Star Games. Por su parte, aquellos suscriptores de PlayStation Plus que dispongan de la portátil de Sony además podrán descargar sin coste el RPG en primera persona 'Severed' de Drinkbox Studios .</p>
               </div>
             </div>
           </div>
@@ -119,7 +133,24 @@
         <aside>
           <div class="well col-md-3 pull-right">
             <h4 class="text-center">Noticias recomendadas</h4>
-            <hr align="center" width="100%" style="border-top: 1px solid white;" />
+            <hr align="center" width="100%" class="hr-noticias" />
+            <div class="row text-center margin-bottom-noticia">
+              <p><strong>SE TARDA CASI MEDIA HORA EN RECORRER EL MUNDO ABIERTO A ZELDA: BREATH OF THE WILD DE NORTE A SUR</strong></p>
+              <img src="../resources/img/noticias/3.jpg" class="img-noticias">
+              <p class="p-noticia">Se puede considerar que 'The Legend of Zelda: Breath of the Wild' es el plato fuerte de la semana, del mes y -posiblemente- del año tras una sucesión de galardones bastante interesante y unas impresiones propias especialmente prometedoras, y más allá de la trama argumental y los nuevos trucos de Link, la esencia de esta entrega estará en su mundo abierto.
+              De hecho, muy pronto podremos ver si es el mejor 'Zelda' de la historia, o nuestro juego favorito de la saga, pero no tendrás que esperar más para saber lo que tarda el héroe de Hyrule en recorrer el mapa disponible en el juego de un extremo a otro: el portal Arekkz a cronometrado lo que tarda Link en cruzar este nuevo mundo y la marca es de 28 minutos y 19 segundos.</p>
+            </div>
+            <div class="row text-center margin-bottom-noticia">
+              <p><strong>AQUI TIENES EL BOOST MODE DE PS4 PRO PUESTO A PRUEBA</strong></p>
+              <img src="../resources/img/noticias/4.jpg" class="img-noticias">
+              <p class="p-noticia">Pese a que no fue anunciado de manera oficial junto al resto de contenidos de la futura actualización 4.5 del software de PS4, el Boost Mode se ha convertido en su gran novedad. El efecto conseguido es un mayor rendimiento en PS4 Pro de gran parte de los juegos previos a ésta y aunque no funciona siempre, se puede considerar un plus a la hora de elegir un modelo de PS4.</p>
+            </div>
+            <div class="row text-center margin-bottom-noticia">
+              <p><strong>NACE XBOX GAME PASS, EL "NETFLIX DE LOS VIDEOJUEGOS" DE MICROSOFT CON MAS DE 100 JUEGOS PARA XBOX ONE</strong></p>
+              <img src="../resources/img/noticias/5.jpg" class="img-noticias">
+              <p class="p-noticia">Microsoft ofrecerá esta primavera un nuevo servicio de suscripción, aunque en este caso se tratará de uno muy tentador para los poseedores de Xbox One. A finales de primavera se pondrá en marcha el Xbox Game Pass, o lo que es lo mismo un acceso a más de 100 juegos de Xbox One y retrocompatibles de Xbox 360 por 9,99 euros al mes.
+              De hecho los juegos que consolidan el catálogo son auténticos pesos pesados: 'Halo 5 Guardians', 'Mad Max' 'Fable III', 'Tekken tag Tournament 2'... esta iniciativa suma el apoyo del estudio de desarrollo de Microsoft junto con otras 12 compañías de referencia como 2K, 505 Games, BANDAI NAMCO, Capcom, Deep Silver, SEGA, SNK, THQ Nordic GmbH o Warner Bros.</p>
+            </div>
           </div>
         </aside>
       </div>
